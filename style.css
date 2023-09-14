@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
 body{
 
 }
@@ -5,15 +8,30 @@ body{
 display: flex;
 justify-content: center;
 background-color: aqua;
-height: 100px;
-align-items: center;
+height: 50px;
+justify-content: right ;
+font-family: 'Mulish', sans-serif;
+font-size: 22px;
+font-weight: bold;
+background-color: black;
+color: white;
+
+}
+#logo{
+    
+    height: 45px;
+    width: 45px;
+    border: 2px solid;
+    border-radius: 100px;
+    display: flex;
+    justify-content: left;
 }
 .conteudo{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 500px;
-   
+   background-image: url(img/pankaj-patel-Fi-GJaLRGKc-unsplash.jpg);
 }
 .rodape{
     background-color: bisque;
@@ -41,3 +59,24 @@ align-items: center;
     width: 300px;
     align-items: center;
 }
+#home{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+#feedback{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+#coisa{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+#contato{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+#coisa1{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
